@@ -10,6 +10,7 @@ const links = [
   { name: "alert-dialog", href: "alert-dialog" },
   { name: "bar-chart", href: "bar-chart" },
   { name: "line-chart", href: "line-chart" },
+  { name: "dialog", href: "dialog" },
 ];
 
 export default function DashboardLayout({
