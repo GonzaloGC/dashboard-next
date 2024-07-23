@@ -9,6 +9,7 @@ const links = [
   { name: "button", href: "button" },
   { name: "alert-dialog", href: "alert-dialog" },
   { name: "bar-chart", href: "bar-chart" },
+  { name: "line-chart", href: "line-chart" },
 ];
 
 export default function DashboardLayout({
