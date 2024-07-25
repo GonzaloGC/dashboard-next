@@ -1,6 +1,6 @@
 // https://tailwindcomponents.com/component/tailwind-css-admin-dashboard-layout
 // https://gist.github.com/Klerith/3949f1c8b884d7101e378dfb668f0f3a
-
+import Image from 'next/image';
 import Link from "next/link";
 
 const links = [
@@ -61,8 +61,13 @@ export default function DashboardLayout({
                 href="#"
                 className="text-xl font-bold flex items-center lg:ml-2.5"
               >
-                {/* Logo */}
-                <svg
+                <Image
+                  src="/logo-gg.png"
+                  alt="My Image"
+                  width={35}
+                  height={35}
+                />
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 256 256"
                   className="h-6 w-6"
@@ -90,10 +95,10 @@ export default function DashboardLayout({
                     strokeLinejoin="round"
                     strokeWidth="16"
                   ></line>
-                </svg>
+                </svg> */}
                 <span className="self-center whitespace-nowrap ml-2">
                   {" "}
-                  Shadcn/ui
+                  Dashboard
                 </span>
               </a>
             </div>
