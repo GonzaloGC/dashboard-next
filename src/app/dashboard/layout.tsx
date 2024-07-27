@@ -12,6 +12,7 @@ const links = [
   { name: "line-chart", href: "line-chart" },
   { name: "dialog", href: "dialog" },
   { name: "carousel", href: "carousel" },
+  { name: "skeleton", href: "skeleton" },
 ];
 
 export default function DashboardLayout({
