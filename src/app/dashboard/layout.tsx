@@ -13,6 +13,7 @@ const links = [
   { name: "dialog", href: "dialog" },
   { name: "carousel", href: "carousel" },
   { name: "skeleton", href: "skeleton" },
+  { name: "area-chart", href: "area-chart" },
 ];
 
 export default function DashboardLayout({

@@ -17,12 +17,12 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart";
 const chartData = [
-  { month: "January", desktop: 186, mobile: 80 },
-  { month: "February", desktop: 305, mobile: 200 },
-  { month: "March", desktop: 237, mobile: 120 },
-  { month: "April", desktop: 73, mobile: 190 },
-  { month: "May", desktop: 209, mobile: 130 },
-  { month: "June", desktop: 214, mobile: 140 },
+  { hours: "14 hrs", desktop: 10, mobile: 80 },
+  { hours: "15 hrs", desktop: 9, mobile: 200 },
+  { hours: "16:00", desktop: 8, mobile: 120 },
+  { hours: "17:00", desktop: 7, mobile: 190 },
+  { hours: "18:00", desktop: 10, mobile: 130 },
+  { hours: "19:00", desktop: 15, mobile: 140 },
 ];
 const chartConfig = {
   desktop: {
@@ -56,11 +56,11 @@ export default function Page() {
             >
               <CartesianGrid vertical={false} />
               <XAxis
-                dataKey="month"
+                dataKey="hours"
                 tickLine={false}
                 axisLine={false}
                 tickMargin={8}
-                tickFormatter={(value) => value.slice(0, 3)}
+                tickFormatter={(value) => value.slice(0, 6)}
               />
               <ChartTooltip
                 cursor={false}
