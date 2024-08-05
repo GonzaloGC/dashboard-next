@@ -14,7 +14,8 @@ const links = [
   { name: "carousel", href: "carousel" },
   { name: "skeleton", href: "skeleton" },
   { name: "area-chart", href: "area-chart" },
-  { name: "popover", href: "popover" },
+  { name: "popover", href: "popover" },  
+  { name: "table", href: "table" },  
 ];
 
 export default function DashboardLayout({
