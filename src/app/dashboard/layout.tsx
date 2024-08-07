@@ -17,6 +17,7 @@ const links = [
   { name: "popover", href: "popover" },  
   { name: "table", href: "table" },  
   { name: "tabs", href: "tabs" },  
+  { name: "calendar", href: "calendar" },  
 ];
 
 export default function DashboardLayout({
