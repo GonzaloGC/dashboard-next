@@ -18,6 +18,7 @@ const links = [
   { name: "table", href: "table" },  
   { name: "tabs", href: "tabs" },  
   { name: "calendar", href: "calendar" },  
+  { name: "slider", href: "slider" },  
 ];
 
 export default function DashboardLayout({
