@@ -1,5 +1,6 @@
 // https://tailwindcomponents.com/component/tailwind-css-admin-dashboard-layout
 // https://gist.github.com/Klerith/3949f1c8b884d7101e378dfb668f0f3a
+import { ModeToggle } from "@/components/ModeTogle";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -112,6 +113,7 @@ export default function DashboardLayout({
             </div>
             <div className="flex items-center">
               {/* User Avatar */}
+              <ModeToggle/>
               <div className="bg-blue-500 text-white p-2 rounded-full w-12 h-12 flex items-center justify-center">
                 GG
               </div>
