@@ -20,6 +20,7 @@ const links = [
   { name: "tabs", href: "tabs" },  
   { name: "calendar", href: "calendar" },  
   { name: "slider", href: "slider" },  
+  { name: "combobox", href: "combobox" },  
 ];
 
 export default function DashboardLayout({
