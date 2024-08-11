@@ -1,5 +1,6 @@
 // https://tailwindcomponents.com/component/tailwind-css-admin-dashboard-layout
 // https://gist.github.com/Klerith/3949f1c8b884d7101e378dfb668f0f3a
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { ModeToggle } from "@/components/ModeTogle";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,12 +16,12 @@ const links = [
   { name: "carousel", href: "carousel" },
   { name: "skeleton", href: "skeleton" },
   { name: "area-chart", href: "area-chart" },
-  { name: "popover", href: "popover" },  
-  { name: "table", href: "table" },  
-  { name: "tabs", href: "tabs" },  
-  { name: "calendar", href: "calendar" },  
-  { name: "slider", href: "slider" },  
-  { name: "combobox", href: "combobox" },  
+  { name: "popover", href: "popover" },
+  { name: "table", href: "table" },
+  { name: "tabs", href: "tabs" },
+  { name: "calendar", href: "calendar" },
+  { name: "slider", href: "slider" },
+  { name: "combobox", href: "combobox" },
 ];
 
 export default function DashboardLayout({
@@ -114,10 +115,15 @@ export default function DashboardLayout({
             </div>
             <div className="flex items-center">
               {/* User Avatar */}
-              <ModeToggle/>
-              <div className="bg-blue-500 text-white p-2 rounded-full w-12 h-12 flex items-center justify-center">
+              <ModeToggle />
+              <Avatar>
+                <AvatarImage src="/avatar-img.png" />
+                <AvatarFallback>CN</AvatarFallback>
+              </Avatar>
+
+              {/* <div className="bg-blue-500 text-white p-2 rounded-full w-12 h-12 flex items-center justify-center">
                 GG
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
