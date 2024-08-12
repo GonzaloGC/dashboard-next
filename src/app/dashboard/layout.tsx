@@ -22,6 +22,7 @@ const links = [
   { name: "calendar", href: "calendar" },
   { name: "slider", href: "slider" },
   { name: "combobox", href: "combobox" },
+  { name: "pie-chart", href: "pie-chart" },
 ];
 
 export default function DashboardLayout({
@@ -113,17 +114,12 @@ export default function DashboardLayout({
                 </span>
               </a>
             </div>
-            <div className="flex items-center">
-              {/* User Avatar */}
+            <div className="flex items-center gap-5">
               <ModeToggle />
               <Avatar>
                 <AvatarImage src="/avatar-img.png" />
                 <AvatarFallback>CN</AvatarFallback>
               </Avatar>
-
-              {/* <div className="bg-blue-500 text-white p-2 rounded-full w-12 h-12 flex items-center justify-center">
-                GG
-              </div> */}
             </div>
           </div>
         </div>
