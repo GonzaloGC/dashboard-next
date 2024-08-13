@@ -23,6 +23,7 @@ const links = [
   { name: "slider", href: "slider" },
   { name: "combobox", href: "combobox" },
   { name: "pie-chart", href: "pie-chart" },
+  { name: "radar-chart", href: "radar-chart" },
 ];
 
 export default function DashboardLayout({
