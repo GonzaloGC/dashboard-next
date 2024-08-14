@@ -24,6 +24,7 @@ const links = [
   { name: "combobox", href: "combobox" },
   { name: "pie-chart", href: "pie-chart" },
   { name: "radar-chart", href: "radar-chart" },
+  { name: "radial-chart", href: "radial-chart" },
 ];
 
 export default function DashboardLayout({
