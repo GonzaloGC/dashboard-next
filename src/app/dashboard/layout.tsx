@@ -27,6 +27,7 @@ const links = [
   { name: "radial-chart", href: "radial-chart" },
    { name: "menubar", href: "menubar" },
    { name: "drawer", href: "drawer" },
+   { name: "tooltip", href: "tooltip" },
 ];
 
 export default function DashboardLayout({
