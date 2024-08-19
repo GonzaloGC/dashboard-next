@@ -29,6 +29,7 @@ const links = [
   { name: "drawer", href: "drawer" },
   { name: "tooltip", href: "tooltip" },
   { name: "dropdown-menu", href: "dropdown-menu" },
+  { name: "breadcrumb", href: "breadcrumb" },
 ];
 
 export default function DashboardLayout({
