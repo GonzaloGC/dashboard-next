@@ -31,6 +31,7 @@ const links = [
   { name: "dropdown-menu", href: "dropdown-menu" },
   { name: "breadcrumb", href: "breadcrumb" },
   { name: "sheet", href: "sheet" },
+  { name: "select", href: "select" },
 ];
 
 export default function DashboardLayout({
