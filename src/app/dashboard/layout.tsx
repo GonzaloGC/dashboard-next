@@ -34,6 +34,7 @@ const links = [
   { name: "select", href: "select" },
   { name: "textarea", href: "textarea" },
   { name: "command", href: "command" },
+  { name: "toast", href: "toast" },
 ];
 
 export default function DashboardLayout({
