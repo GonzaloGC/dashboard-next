@@ -35,6 +35,7 @@ const links = [
   { name: "textarea", href: "textarea" },
   { name: "command", href: "command" },
   { name: "toast", href: "toast" },
+  { name: "input", href: "input" },
 ];
 
 export default function DashboardLayout({
