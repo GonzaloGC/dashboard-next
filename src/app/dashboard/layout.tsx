@@ -36,6 +36,7 @@ const links = [
   { name: "command", href: "command" },
   { name: "toast", href: "toast" },
   { name: "input", href: "input" },
+  { name: "collapsible", href: "collapsible" },
 ];
 
 export default function DashboardLayout({
