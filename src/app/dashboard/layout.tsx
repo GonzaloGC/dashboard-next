@@ -38,6 +38,7 @@ const links = [
   { name: "input", href: "input" },
   { name: "collapsible", href: "collapsible" },
   { name: "separator", href: "separator" },
+  { name: "badge", href: "badge" },
 ];
 
 export default function DashboardLayout({
