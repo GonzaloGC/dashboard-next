@@ -39,6 +39,7 @@ const links = [
   { name: "collapsible", href: "collapsible" },
   { name: "separator", href: "separator" },
   { name: "badge", href: "badge" },
+  { name: "toggle-group", href: "toggle-group" },
 ];
 
 export default function DashboardLayout({
