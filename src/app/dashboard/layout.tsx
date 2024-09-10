@@ -40,6 +40,7 @@ const links = [
   { name: "separator", href: "separator" },
   { name: "badge", href: "badge" },
   { name: "toggle-group", href: "toggle-group" },
+  { name: "navigation-menu", href: "navigation-menu" },
 ];
 
 export default function DashboardLayout({
