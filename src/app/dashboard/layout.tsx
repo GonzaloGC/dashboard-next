@@ -41,6 +41,7 @@ const links = [
   { name: "badge", href: "badge" },
   { name: "toggle-group", href: "toggle-group" },
   { name: "navigation-menu", href: "navigation-menu" },
+  { name: "sonner", href: "sonner" },
 ];
 
 export default function DashboardLayout({
