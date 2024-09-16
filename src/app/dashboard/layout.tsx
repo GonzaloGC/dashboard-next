@@ -43,6 +43,7 @@ const links = [
   { name: "navigation-menu", href: "navigation-menu" },
   { name: "sonner", href: "sonner" },
   { name: "aspect-ratio", href: "aspect-ratio" },
+  { name: "resizable", href: "resizable" },
 ];
 
 export default function DashboardLayout({
