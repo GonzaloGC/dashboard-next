@@ -44,6 +44,7 @@ const links = [
   { name: "sonner", href: "sonner" },
   { name: "aspect-ratio", href: "aspect-ratio" },
   { name: "resizable", href: "resizable" },
+  { name: "context-menu", href: "context-menu" },
 ];
 
 export default function DashboardLayout({
