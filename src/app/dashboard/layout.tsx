@@ -45,6 +45,7 @@ const links = [
   { name: "aspect-ratio", href: "aspect-ratio" },
   { name: "resizable", href: "resizable" },
   { name: "context-menu", href: "context-menu" },
+  { name: "switch", href: "switch" },
 ];
 
 export default function DashboardLayout({
