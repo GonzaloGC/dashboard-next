@@ -46,6 +46,7 @@ const links = [
   { name: "resizable", href: "resizable" },
   { name: "context-menu", href: "context-menu" },
   { name: "switch", href: "switch" },
+  { name: "date-picker", href: "date-picker" },
 ];
 
 export default function DashboardLayout({
